@@ -15,7 +15,6 @@
 		DDFC584D19537CDF00D8F279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC584C19537CDF00D8F279 /* main.m */; };
 		DDFC585119537CDF00D8F279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC585019537CDF00D8F279 /* AppDelegate.m */; };
 		DDFC585319537CDF00D8F279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFC585219537CDF00D8F279 /* Images.xcassets */; };
-		DDFC585A19537CDF00D8F279 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC585919537CDF00D8F279 /* XCTest.framework */; };
 		DDFC585B19537CDF00D8F279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC584019537CDF00D8F279 /* Foundation.framework */; };
 		DDFC585C19537CDF00D8F279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC584419537CDF00D8F279 /* UIKit.framework */; };
 		DDFC587019537D4F00D8F279 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC586F19537D4F00D8F279 /* OpenGLES.framework */; };
@@ -47,7 +46,6 @@
 		DDFC585019537CDF00D8F279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDFC585219537CDF00D8F279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDFC585819537CDF00D8F279 /* HelloOpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloOpenGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFC585919537CDF00D8F279 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DDFC586F19537D4F00D8F279 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		DDFC587119537D6100D8F279 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DDFC587319537DF400D8F279 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFC585A19537CDF00D8F279 /* XCTest.framework in Frameworks */,
 				DDFC585C19537CDF00D8F279 /* UIKit.framework in Frameworks */,
 				DDFC585B19537CDF00D8F279 /* Foundation.framework in Frameworks */,
 			);
@@ -106,7 +103,6 @@
 				DDFC584019537CDF00D8F279 /* Foundation.framework */,
 				DDFC584219537CDF00D8F279 /* CoreGraphics.framework */,
 				DDFC584419537CDF00D8F279 /* UIKit.framework */,
-				DDFC585919537CDF00D8F279 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
