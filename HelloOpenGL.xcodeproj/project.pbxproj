@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1592821954B24D0007D364 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1592811954B24D0007D364 /* MainWindow.xib */; };
 		DDFC584119537CDF00D8F279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC584019537CDF00D8F279 /* Foundation.framework */; };
 		DDFC584319537CDF00D8F279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC584219537CDF00D8F279 /* CoreGraphics.framework */; };
 		DDFC584519537CDF00D8F279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC584419537CDF00D8F279 /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD1592811954B24D0007D364 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DDFC583D19537CDF00D8F279 /* HelloOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC584019537CDF00D8F279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDFC584219537CDF00D8F279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 				DDFC587319537DF400D8F279 /* OpenGLView.h */,
 				DDFC587419537DF400D8F279 /* OpenGLView.m */,
 				DDFC585019537CDF00D8F279 /* AppDelegate.m */,
+				DD1592811954B24D0007D364 /* MainWindow.xib */,
 				DDFC585219537CDF00D8F279 /* Images.xcassets */,
 				DDFC584719537CDF00D8F279 /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				DDFC584B19537CDF00D8F279 /* InfoPlist.strings in Resources */,
 				DDFC585319537CDF00D8F279 /* Images.xcassets in Resources */,
+				DD1592821954B24D0007D364 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				DDFC586B19537CDF00D8F279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDFC586C19537CDF00D8F279 /* Build configuration list for PBXNativeTarget "HelloOpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				DDFC586E19537CDF00D8F279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

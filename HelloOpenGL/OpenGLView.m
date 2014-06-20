@@ -10,19 +10,6 @@
 
 @implementation OpenGLView
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setupLayer];
-        [self setupContext];
-        [self setupRenderBuffer];
-        [self setupFrameBuffer];
-        [self render];
-    }
-    return self;
-}
-
 + (Class)layerClass {
     return [CAEAGLLayer class];
 }
@@ -64,6 +51,19 @@
     glClearColor(0, 104.0/255.0, 55.0/255.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
     [_context presentRenderbuffer:GL_RENDERBUFFER];
+}
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setupLayer];
+        [self setupContext];
+        [self setupRenderBuffer];
+        [self setupFrameBuffer];
+        [self render];
+    }
+    return self;
 }
 
 @end

@@ -10,12 +10,15 @@
 
 @implementation AppDelegate
 
+@synthesize glView=_glView;
+
+@synthesize window=_window;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
     [self.window addSubview:_glView];
-
     [self.window makeKeyAndVisible];
     return YES;
 }
